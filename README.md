@@ -239,11 +239,24 @@ La aprobación de la suite no implica una cobertura exhaustiva de todos los posi
 
 ## 8. Evidencias de ejecución
 
-### Evidencia 1. Pruebas automatizadas y menú principal
+### Menú principal y pruebas
+![Menu](docs/evidencias/01-menu.png)
 
-![Ejecución de las pruebas y menú principal](docs/evidencias/01_pruebas_menu.png)
+### Carga de datos
+![Datos](docs/evidencias/02_datos_cargados.png)
 
-La evidencia presenta el resultado de las 40 pruebas automatizadas correctas, ninguna prueba fallida y la ejecución del menú principal de SIGAC-UTA.
+### Recorridos iniciales del ABB
+![ABB inicial](docs/evidencias/03_abb_antes.png)
+
+### Eliminación de matrícula 30
+![Eliminacion](docs/evidencias/04_abb_eliminacion.png)
+
+### Recorridos después de eliminar
+![ABB final](docs/evidencias/05_abb_despues.png)
+
+### Validación del ABB
+![Validacion](docs/evidencias/06_abb_validacion.png)
+---
 
 ## 9. Complejidad temporal
 
@@ -337,24 +350,3 @@ Se utilizó asistencia de ChatGPT para revisar los trabajos anteriores, adaptar 
 - Se reutilizaron implementaciones anteriores, adaptándolas a los requerimientos del proyecto SIGAC-UTA.
 - Las 40 pruebas automatizadas ejecutadas localmente finalizaron satisfactoriamente, sin errores.
 - GitHub permite mantener la documentación y trazabilidad del proyecto.
-
-## 8. Evidencias de ejecución
-
-### Menú principal y pruebas
-![Menu](docs/evidencias/01-menu.png)
-
-### Carga de datos
-![Datos](docs/evidencias/02_datos_cargados.png)
-
-### Recorridos iniciales del ABB
-![ABB inicial](docs/evidencias/03_abb_antes.png)
-
-### Eliminación de matrícula 30
-![Eliminacion](docs/evidencias/04_abb_eliminacion.png)
-
-### Recorridos después de eliminar
-![ABB final](docs/evidencias/05_abb_despues.png)
-
-### Validación del ABB
-![Validacion](docs/evidencias/06_abb_validacion.png)
----
