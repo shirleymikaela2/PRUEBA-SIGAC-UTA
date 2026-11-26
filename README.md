@@ -239,24 +239,89 @@ La aprobación de la suite no implica una cobertura exhaustiva de todos los posi
 
 ## 8. Evidencias de ejecución
 
-### Menú principal y pruebas
-![Menu](docs/evidencias/01-menu.png)
+### 8.1. Menú principal y pruebas automatizadas
 
-### Carga de datos
-![Datos](docs/evidencias/02_datos_cargados.png)
+![Menu principal](docs/evidencias/01-menu.png)
 
-### Recorridos iniciales del ABB
+Ejecución del sistema SIGAC-UTA y resultados de las
+40 pruebas automatizadas, con 0 pruebas fallidas.
+
+### 8.2. Carga de datos de prueba
+
+![Carga de datos](docs/evidencias/02_datos_cargados.png)
+
+Carga de los datos correspondientes al caso integrador.
+
+### 8.3. Recorridos iniciales del ABB
+
 ![ABB inicial](docs/evidencias/03_abb_antes.png)
 
-### Eliminación de matrícula 30
-![Eliminacion](docs/evidencias/04_abb_eliminacion.png)
+Recorridos preorden, inorden y posorden antes de
+eliminar la matrícula 30.
 
-### Recorridos después de eliminar
+### 8.4. Eliminación de un nodo con dos hijos
+
+![Eliminacion ABB](docs/evidencias/04_abb_eliminacion.png)
+
+Eliminación exitosa del estudiante con matrícula 30.
+
+### 8.5. Recorridos después de la eliminación
+
 ![ABB final](docs/evidencias/05_abb_despues.png)
 
-### Validación del ABB
-![Validacion](docs/evidencias/06_abb_validacion.png)
----
+Recorridos actualizados después de eliminar el nodo,
+utilizando el sucesor inorden.
+
+### 8.6. Validación del árbol binario de búsqueda
+
+![Validacion ABB](docs/evidencias/06_abb_validacion.png)
+
+Comprobación de la propiedad del árbol binario
+de búsqueda después de la eliminación.
+
+### 8.7. Atención de solicitudes FIFO y LIFO
+
+![Atencion de solicitudes](docs/evidencias/07_fifo_lifo_parcial.png)
+
+Evidencia parcial de la atención FIFO.
+La secuencia completa FIFO y LIFO fue verificada
+mediante las pruebas automatizadas.
+
+### 8.8. Recorrido BFS
+
+![Recorrido BFS](docs/evidencias/08_bfs.png)
+
+Resultado esperado y verificado:
+PC1, SW1, PC3, SRV1, PC2.
+
+### 8.9. Recorridos de la red de laboratorios
+
+![Recorridos del grafo](docs/evidencias/08_bfs_completo.png)
+
+Evidencia complementaria de los recorridos del grafo.
+El recorrido DFS esperado es:
+PC1, SW1, SRV1, PC2, PC3.
+
+### 8.10. Equipos no alcanzables
+
+![Equipos no alcanzables](docs/evidencias/09_no_alcanzables.png)
+
+Identificación del equipo PC4 como no alcanzable
+desde PC1.
+
+### 8.11. Recomendaciones de contactos
+
+![Recomendaciones](docs/evidencias/10_recomendaciones.png)
+
+Resultados de las recomendaciones para Ana:
+
+| Contacto | Amigos en común |
+|---|---:|
+| Diego | 2 |
+| Elena | 1 |
+
+El algoritmo excluye al usuario consultado y
+a sus amigos directos.
 
 ## 9. Complejidad temporal
 
@@ -350,3 +415,5 @@ Se utilizó asistencia de ChatGPT para revisar los trabajos anteriores, adaptar 
 - Se reutilizaron implementaciones anteriores, adaptándolas a los requerimientos del proyecto SIGAC-UTA.
 - Las 40 pruebas automatizadas ejecutadas localmente finalizaron satisfactoriamente, sin errores.
 - GitHub permite mantener la documentación y trazabilidad del proyecto.
+
+---
