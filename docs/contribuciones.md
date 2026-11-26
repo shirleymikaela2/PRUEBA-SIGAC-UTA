@@ -17,13 +17,11 @@
 | Clonación y preparación del entorno local | Realizada |
 | Organización de carpetas y archivos Java | Realizada |
 | Reutilización de estructuras anteriores | Realizada con asistencia de IA |
-| Adaptación e integración del código | Realizada con asistencia de IA |
+| Adaptación e integración del código | Realizada |
 | Compilación local | Exitosa |
 | Corrección de errores de compilación | Realizada |
 | Ejecución de pruebas automatizadas | 40 correctas, 0 fallidas |
 | Configuración de Visual Studio Code | Realizada |
-| Elaboración de documentación | Realizada con asistencia de IA |
-| Publicación del código y documentación | Pendiente |
 
 ## Herramientas utilizadas
 
